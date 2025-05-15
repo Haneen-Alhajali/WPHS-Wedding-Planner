@@ -1,0 +1,84 @@
+.carousel-caption  {
+    font-family: 'Courgette', sans-serif;
+}
+.carousel-item {
+    margin-top: 4%;
+    height: 600px;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.02);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    position: relative;
+}
+
+.hero, .carousel-inner {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.carousel-caption-container {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(30%);
+    opacity: 0;
+    transition: opacity 3s ease-in-out, transform 3s ease-in-out;
+    text-align: center;
+}
+.carousel-caption h5 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideDown {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+}
+@keyframes growImage {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+.carousel-item.active .carousel-caption {
+    animation: slideUp 5s forwards;
+}
+.carousel-item {
+    animation: growImage 7s ease-in-out forwards;
+}
