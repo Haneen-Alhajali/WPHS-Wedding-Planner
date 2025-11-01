@@ -11,7 +11,7 @@ A magical wedding planning website crafted with love for the academic year 2024/
 
 ## 🔍 Documentation
 
-📚 **[Full Storybook](report/Wedding Planner WPHS( Web Project ).pdf)**  
+📚 **[Full Storybook](report/Wedding_Planner_WPHS_Web_Project.pdf)**  
 Discover:
 - 📄 Abstract & Introduction
 - 📋 Requirements
