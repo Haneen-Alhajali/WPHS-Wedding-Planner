@@ -1,7 +1,8 @@
 # 💍 Wedding Planner Website - WPHS 🎉
 
 <div style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; background-color: white; padding: 20px 0; text-align: center;">
-  <img src="images/logo/WPHSlogo.png" alt="WPHS Logo" width="300" style="background: white;">
+  <img src="images/logo/WPHSlogo.png" alt="WPHS Logo" width="300" style="background: white; margin-bottom: 20px;">
+  <img src="images/homepage_banner.jpg" alt="Home Page Banner" width="800" style="max-width: 90%; height: auto; border-radius: 10px;">
 </div>
 
 ✨ **Your dream wedding starts here!** ✨  
